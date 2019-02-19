@@ -11,6 +11,7 @@ apt-get install build-essential
 ```
 git clone https://github.com/liuzhengyang/hsdis
 cd hsdis
+wget http://ftp.heanet.ie/mirrors/ftp.gnu.org/gnu/binutils/binutils-2.26.tar.gz
 tar -zxvf binutils-2.26.tar.gz
 make BINUTILS=binutils-2.26 ARCH=amd64
 ```
